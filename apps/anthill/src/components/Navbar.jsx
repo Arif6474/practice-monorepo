@@ -5,8 +5,8 @@ const Navbar = () => {
   return (
     <nav>
       <Link to="/">Home</Link>
-      <a href="http://localhost:5174">Finance</a>
-      <a href="http://localhost:5175">Marketing</a>
+      <a href={import.meta.env.VITE_FINANCE_URL}>Finance</a>
+      <a href={import.meta.env.VITE_MARKETING_URL}>Marketing</a>
     </nav>
   );
 };
