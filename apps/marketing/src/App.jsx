@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import Contact from "./pages/contact/Contact";
 import "./App.css";
 import Blog from "./pages/blog/Blog";
-import News from "./pages/news/news";
+import News from "./pages/news/News";
 function App() {
   return (
     <Router>
